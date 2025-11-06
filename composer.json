@@ -1,17 +1,25 @@
 {
     "name": "arkecosystem/client",
     "description": "A simple PHP API client for the Ark Blockchain.",
-    "keywords": ["api", "ark", "blockchain", "crypto", "currency"],
+    "keywords": [
+        "api",
+        "ark",
+        "blockchain",
+        "crypto",
+        "currency"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "brian@ark.io",
-        "homepage": "https://github.com/faustbrian"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@ark.io",
+            "homepage": "https://github.com/faustbrian"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^6.5|^7.0",
-        "illuminate/support": "^6.0|^7.0|^8.0"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
